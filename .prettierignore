@@ -1,0 +1,12 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+pnpm-lock.yaml
+**/*.ts
+**/*.js
+**/*.vue
+**/*.mjs
