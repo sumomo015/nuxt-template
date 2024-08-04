@@ -32,6 +32,11 @@ jobs:
         run: pnpm run typecheck
       - name: Lint
         run: pnpm run lint
+      - name: Build
+        run: pnpm run build
+      - name: Generate
+        run: pnpm run generate
+
       # - name: Test unit
       #   run: pnpm run test:unit
       # - name: Test e2e
