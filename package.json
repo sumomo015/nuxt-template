@@ -41,5 +41,10 @@
   "devDependencies": {
     "nuxt": "^3.12.4"
   },
-  "packageManager": "pnpm@9.7.0"
+  "packageManager": "pnpm@9.7.0",
+  "pnpm": {
+    "overrides": {
+      "cheerio": "1.0.0-rc.12"
+    }
+  }
 }
