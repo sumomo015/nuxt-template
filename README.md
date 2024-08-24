@@ -7,7 +7,6 @@ This starter template helps you quickly set up a Nuxt project. It includes the f
 ## Core Packages
 
 - **Nuxt**: A powerful framework for building server-side rendered Vue.js applications.
-- **Nuxt Image Module**: Optimizes images and reduces loading times.
 - **Nuxt Security**: Adds security headers to your Nuxt application.
 - **VueUse**: A collection of essential Vue Composition API utilities.
 

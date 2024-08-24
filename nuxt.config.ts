@@ -8,7 +8,6 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxt/eslint',
     '@nuxt/test-utils/module',
-    '@nuxt/image',
     'nuxt-security',
   ],
   typescript: {
@@ -22,11 +21,10 @@ export default defineNuxtConfig({
       stylistic: true,
     },
   },
-  image: {
-    format: ['avif'],
-    dir: 'assets/images',
-  },
   security: {
+    headers: {
+      crossOriginEmbedderPolicy: import.meta.env.PROD ? 'require-corp' : 'unsafe-none',
+    },
     removeLoggers: false,
     rateLimiter: false,
     xssValidator: false,
