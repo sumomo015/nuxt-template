@@ -1,5 +1,5 @@
 ### ビルド環境 ###
-FROM node:20.16.0-slim AS builder
+FROM node:20.17.0-slim AS builder
 WORKDIR /app
 ENV NODE_OPTIONS=--max_old_space_size=4096
 
